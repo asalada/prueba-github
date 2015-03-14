@@ -1,20 +1,20 @@
 // Headings individuales
 h1{
-    @include font-sizing($font-size-h1, $line-height-heading);
+    @include font-sizing($font-size-h1, $line-height-title);
     .post-header &{
         color:$color-blog-header;
-        @include font-sizing($font-size-title, $line-height-heading);
+        @include font-sizing($font-size-title, $line-height-title, 6px);
     }
 }
 h2{
-    @include font-sizing($font-size-h2, $line-height-heading);
+    @include font-sizing($font-size-h2, $line-height-title);
     .home-section &{
         margin:0;
         padding:0;
     }
 }
 h3{
-    @include font-sizing($font-size-h3, $line-height-heading);
+    @include font-sizing($font-size-h3, $line-height-title);
 }
 h4{
     font-size:$font-size-h4;

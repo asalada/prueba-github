@@ -1,10 +1,10 @@
-@mixin font-sizing($size, $line-height){
+@mixin font-sizing($size, $line-height, $factor:2px){
     font-size:$size;
     line-height: $line-height;
     @media screen and (max-width: $device-tablet) {
-        font-size:$size - 2px;
+        font-size:$size - $factor;
     }
     @media screen and (max-width: $device-phone) {
-        font-size:$size - 4px;
+        font-size:$size - $factor * 2;
     }
 }
