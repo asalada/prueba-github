@@ -6,13 +6,13 @@
 
     <ul class="desktop">
         <li>
-            <a href="blog.php">Blog</a>
-        </li>
-        <li>
             <a href="portfolio.php">Portfolio</a>
         </li>
         <li>
-            <a href="about.php">Sobre mí</a>
+            <a href="blog.php">Blog</a>
+        </li>
+        <li>
+            <a href="about.php">About</a>
         </li>
         <li>
             <a href="contacto.php">Contacto</a>
