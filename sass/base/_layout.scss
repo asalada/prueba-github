@@ -1,0 +1,19 @@
+.main-container{
+    padding-bottom:$padding-default;
+    padding-top: emCalc(60px);
+}
+.wrapper {
+    $width:70%;
+    margin: 0 (100% - $width) / 2;
+    width: $width;
+    @media screen and (max-width: $device-tablet) {
+        $width: 80%;
+        margin: 0 (100% - $width) / 2;
+        width: $width;
+    }
+    @media screen and (max-width: $device-phone) {
+        $width: 90%;
+        margin: 0 (100% - $width) / 2;
+        width: $width;
+    }
+}

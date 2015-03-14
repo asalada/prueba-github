@@ -1,0 +1,48 @@
+// Square
+@mixin button-square($size){
+    display:inline-block;
+    line-height: $size;
+    text-align: center;
+    width: $size;
+}
+
+// Square curved
+@mixin button-square-curve($size, $radius){
+    -webkit-border-radius: $radius;
+    background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+    border-radius: $radius;
+    display:inline-block;
+    line-height: $size;
+    text-align: center;
+    width: $size;
+}
+
+// Rectangle
+@mixin button-rectangle($height, $width){
+    display:inline-block;
+    line-height: $height;
+    text-align: center;
+    width: $width;
+}
+
+// Rectangle curved
+@mixin button-rectangle-curve($height, $width, $radius){
+    -webkit-border-radius: $radius;
+    background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+    border-radius: $radius;
+    display:inline-block;
+    line-height: $height;
+    text-align: center;
+    width: $width;
+}
+
+// Circle
+@mixin button-circle($size){
+    -webkit-border-radius: size;
+    background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+    border-radius: $size;
+    display:inline-block;
+    line-height: $size;
+    text-align: center;
+    width: $size;
+}

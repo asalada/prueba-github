@@ -1,0 +1,12 @@
+.footer-info{
+    background: $color-main-dark;
+    color:$color-light;
+    font-family: $font-nav;
+    $padding:$padding-default;
+    padding-bottom:$padding;
+    padding-top:$padding;
+    text-align:center;
+    article{
+        @extend .wrapper;
+    }
+}

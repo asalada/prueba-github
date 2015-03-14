@@ -1,0 +1,50 @@
+.site-header{
+    background-color:$nav-background;
+    position:fixed;
+    width:100%;
+}
+
+.navigation-main{
+    overflow: auto;
+    text-align:center;
+    h1,a{
+        color:$color-light;
+        display:inline-block;
+        font-family: $font-nav;
+        font-size:18px;
+        line-height:$nav-height;
+    }
+    .desktop,
+    .mobile{
+        float:right;
+        font-size:0;
+        a{
+            font-family: $font-nav;
+            padding:0 15px;
+            &:hover{
+                background-color:$nav-background;
+            }
+        } 
+    }
+    h1,ul,li{
+        display: inline-block;
+    }
+    h1,ul{
+        margin:0;
+    }
+    h1{
+        float:left;
+        text-transform:uppercase;
+    }
+    .desktop{
+        @media screen and (max-width: $device-tablet) {
+            display:none;
+        }
+    }
+    .mobile{
+        display:none;
+        @media screen and (max-width: $device-tablet) {
+            display: inline;
+        }
+    }
+}

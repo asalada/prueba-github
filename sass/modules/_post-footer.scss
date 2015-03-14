@@ -1,0 +1,40 @@
+// Footer (buttons)
+%button-post-style{
+    $color:$grey-80;
+    background-color:#fff;
+    border:1px solid $color;
+    color:$color;
+    @include button-square-curve(50px, 1px);
+}
+
+.post-share,
+.post-nav{
+    float:right;
+    a{
+        /*@extend %button-post;*/
+        @extend %button-post-style;
+    }
+}
+.post-share{
+    margin-right:20px;
+    a{
+        &.facebook:hover{
+            $color-hover:$color-facebook;
+            background-color:$color-hover;
+            border-color:$color-hover;
+            color:$color-light;
+        }
+        &.twitter:hover{
+            $color-hover:$color-twitter;
+            background-color:$color-hover;
+            border-color:$color-hover;
+            color:$color-light;
+        }
+    }
+}
+.post-nav a:hover{
+    $color-hover:$grey-70;
+    background-color:$color-main;
+    border-color:$color-main-dark;
+    color:$color-light;
+}

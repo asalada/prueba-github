@@ -1,0 +1,42 @@
+// Estilos del formulario de CONTACTO
+.contact-form{
+    max-width: 500px;
+}
+.contact-item{
+    border:0;
+    $font-size:24px;
+    font-size:$font-size;
+    line-height: $font-size;
+    $margin:10px;
+    margin-bottom:$margin;
+    margin-top:$margin;
+    &:first-child{
+        margin-top:0;
+    }
+    &:last-child{
+        margin-bottom:0;
+    }
+    &.nombre,
+    &.mail,
+    &.mensaje{
+        border-bottom: 1px solid $color-grey-light;
+        &:focus{
+            border-color:$color-grey;
+        }
+    }
+    &.enviar{
+        $color:$color-grey;
+        background-color:$color-light;
+        border:1px solid $color;
+        color:$color;
+        $padding:20px;
+        padding-bottom:$padding;
+        padding-top:$padding;
+        &:hover{
+            $color-hover:$color-main;
+            border-color:$color-hover;
+            background-color:$color-hover;
+            color:$color-light;
+        }
+    }
+}

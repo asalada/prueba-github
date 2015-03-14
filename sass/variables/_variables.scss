@@ -1,0 +1,65 @@
+// Colores
+$color-main:#e52d27;
+$color-main-dark:#b31217;
+$color-main-light:#FF7F7C;
+$color-grey-darkest:$grey-5;
+$color-grey-darker:$grey-10;
+$color-grey-dark:$grey-30;
+$color-grey:$grey-50;
+$color-grey-light:$grey-80;
+$color-grey-lighter:$grey-90;
+$color-grey-lightest:$grey-95;
+$color-light:#fff;
+
+$color-blog-bg:$grey-97;
+$color-blog-header:$grey-15;
+$color-blog-text:$grey-30;
+
+$color-selection:#fff;
+$color-selection-background:$color-main-light;
+
+$color-facebook:#44619D;
+$color-github:#4183C4;
+$color-mail:#F0F828;
+$color-spotify:#84BD00;
+$color-twitter:#55ACEE;
+$color-youtube:#CC181E;
+
+// Fuentes
+$font-title: 'Playfair Display', serif;
+$font-subtitle: 'Playfair Display SC', sans-serif;
+$font-text: 'Merriweather', serif;
+$font-featured: 'Open Sans', sans-serif;
+$font-nav: 'Open Sans', sans-serif;
+
+// Tamaños headings
+$font-size-h1:40px;
+$font-size-h2:$font-size-h1 - 6px;
+$font-size-h3:$font-size-h1 - 12px;
+$font-size-h4:16px;
+$font-size-h5:$font-size-h4 - 2px;
+$font-size-h6:$font-size-h4 - 4px;
+
+// Tamaños de fuente
+$font-size-title:46px;
+$font-size-subtitle:16px;
+$font-size-text:18px;
+$font-size-blockquote:22px;
+
+
+// Anchos de línea
+$line-height-heading:1;
+$line-height-subtitle:$line-height-heading;
+$line-height-text:1.5;
+
+// Dispositivos
+$device-desktop:1140px;
+$device-tablet:768px;
+$device-phone:480px;
+
+// Distancias
+$padding-default:remCalc(50px);
+
+// Nav
+$nav-background:rgba(0,0,0,2/10);
+$nav-height:50px;

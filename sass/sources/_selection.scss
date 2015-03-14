@@ -1,0 +1,26 @@
+////////////////////
+// Text selection
+
+// General project selection
+@mixin selection($background-color, $color){
+    ::selection{
+        background-color:$background-color;
+        color:$color;
+    }
+    ::-moz-selection{
+        background-color:$background-color;
+        color:$color;
+    }
+}
+
+// Child item selection
+@mixin selectionAnd($background-color, $color){
+    &::selection{
+        background-color:$background-color;
+        color:$color;
+    }
+    &::-moz-selection{
+        background-color:$background-color;
+        color:$color;
+    }
+}

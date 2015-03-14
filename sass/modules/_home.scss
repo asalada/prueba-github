@@ -1,0 +1,28 @@
+.home-section{
+    @include box-sizing(border-box);
+    border-bottom-style:solid;
+    &:first-of-type{
+        background-color: $color-main;
+        background-image: url("../img/home-bg.jpg");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-bottom-color:$color-main-dark;
+        border-bottom-width:3px;
+        color:#fff;
+        height: 100%;
+    }
+    &:nth-of-type(1n+2) {
+        border-bottom-color:$color-grey-lightest;
+        border-bottom-width: 1px;
+        padding: $padding-default 0;
+    } 
+    &:last-of-type{
+        background-color: $color-main;
+        border-bottom:0;
+        color:#fff;
+    }
+    &.welcome .wrapper{
+        padding-top: 180px;
+    }
+}

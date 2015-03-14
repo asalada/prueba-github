@@ -1,0 +1,45 @@
+.footer-social{
+    background-color:$color-light;
+    border-top:1px solid $color-grey-lightest;
+    text-align:center;
+    $padding:$padding-default;
+    padding-bottom:$padding;
+    padding-top:$padding;
+    article{
+        @extend .wrapper;
+    }
+    a{
+        border:1px solid $color-grey-lightest;
+        color:$color-grey-lighter;
+        font-size:36px;
+        margin:4px 2px;
+        @include button-square(remCalc(100px));
+        &:hover{
+            color:$color-light;
+            &.facebook{
+                background-color:$color-facebook;
+                border-color:$color-facebook;
+            }
+            &.github{
+                background-color:$color-github;
+                border-color:$color-github;
+            }
+            &.mail{
+                background-color:$color-mail;
+                border-color:$color-mail;
+            }
+            &.spotify{
+                background-color:$color-spotify;
+                border-color:$color-spotify;
+            }
+            &.twitter{
+                background-color:$color-twitter;
+                border-color:$color-twitter;
+            }
+            &.youtube{
+                background-color:$color-youtube;
+                border-color:$color-youtube;
+            }
+        }
+    }
+}

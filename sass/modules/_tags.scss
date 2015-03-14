@@ -1,0 +1,20 @@
+// Post Footer Tags
+.post-tags{
+    font-family: $font-nav;
+    a{
+        $color:$color-grey-light;
+        border:1px solid $color;
+        color: $color;
+        font-size:12px;
+        font-weight:600;
+        margin-right:5px;
+        padding:2px 5px;
+        text-transform: uppercase;
+        @include border-radius(2px);
+        &:hover{
+            $color-hover:$color-grey-dark;
+            border-color:$color-hover;
+            color:$color-hover;
+        }
+    }
+}
