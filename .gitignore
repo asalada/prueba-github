@@ -1,6 +1,10 @@
 # Caché de SCSS #
-###################
+#################
 *.scssc
+
+# Proyecto Netbeans #
+#####################
+/nbproject
 
 # Compiled source #
 ###################
