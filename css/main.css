@@ -726,6 +726,18 @@ blockquote {
   padding-top: 3.125rem;
   text-align: center; }
 
+.contacto-portada input, .contacto-portada textarea {
+  background-color: #e52d27;
+  border: 0;
+  border-bottom: 1px solid #FF7F7C;
+  display: inline-block;
+  padding: 5px 5px 0 5px; }
+  .contacto-portada input:focus, .contacto-portada textarea:focus {
+    background-color: #FF7F7C;
+    color: #e52d27; }
+.contacto-portada input {
+  width: 160px; }
+
 .contact-form {
   max-width: 500px; }
 

@@ -61,6 +61,11 @@
         <h2>
             Contacto
         </h2>
+        <form class="contacto-portada">
+            Hola Álvaro, me llamo <input type="text" name="nombre" placeholder="Escribe tu nombre" class="formulario-contacto-input nombre"> y mi correo es <input type="text" name="correo" placeholder="Escribe tu mail" class="formulario-contacto-input mail">. Simplemente quería decirte que... <textarea></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+</div>
     </article>
     
 </section>

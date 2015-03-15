@@ -1,4 +1,22 @@
-// Estilos del formulario de CONTACTO
+// Formulario de contacto en HOME
+.contacto-portada{
+    input, textarea{
+        background-color:$color-main;
+        border:0;
+        border-bottom: 1px solid $color-main-light;
+        display: inline-block;
+        padding:5px 5px 0 5px;
+        &:focus{
+            background-color: $color-main-light;
+            color:$color-main;
+        }
+    }
+    input{
+        width: 160px;
+    }
+}
+
+// Estilos del formulario en la página CONTACTO
 .contact-form{
     max-width: 500px;
 }
