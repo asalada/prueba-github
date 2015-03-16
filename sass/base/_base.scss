@@ -20,9 +20,9 @@ fieldset {
 
 // Enlaces
 a{
-    color:$color-blog-text;
+    color:$color-post-text;
     text-decoration: none;
-    @include transition-s(all, 2/10, ease-out);
+    @include transition-s(all, $transition-main, ease-out);
 }
 
 // Images
@@ -59,7 +59,7 @@ form{
         display:block;
         width: 100%;
         @include box-sizing(border-box);
-        @include transition-s(all, 2/10, ease-out);
+        @include transition-s(all, $transition-main, ease-out);
     }
     textarea{
         overflow: hidden;

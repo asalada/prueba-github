@@ -10,14 +10,22 @@ $color-grey-light:$grey-80;
 $color-grey-lighter:$grey-90;
 $color-grey-lightest:$grey-95;
 $color-light:#fff;
+$color-dark:#000;
 
-$color-blog-bg:$grey-97;
-$color-blog-header:$grey-15;
-$color-blog-text:$grey-30;
+// Post
+$color-post-bg:$grey-97;
+$color-post-header:$grey-15;
+$color-post-text:$grey-30;
 
+// Blog
+$color-blog-bg:$color-post-bg;
+$color-blog-grid-hover:$color-grey-darker;
+
+// Selection
 $color-selection:#fff;
 $color-selection-background:$color-main-light;
 
+// Sociales
 $color-facebook:#44619D;
 $color-github:#4183C4;
 $color-mail:#F0F828;
@@ -31,9 +39,10 @@ $font-subtitle: 'Playfair Display SC', sans-serif;
 $font-text: 'Merriweather', serif;
 $font-featured: 'Open Sans', sans-serif;
 $font-nav: 'Open Sans', sans-serif;
+$font-icon: FontAwesome;
 
 // Tamaños headings
-$font-size-h1:40px;
+$font-size-h1:34px;
 $font-size-h2:$font-size-h1 - 6px;
 $font-size-h3:$font-size-h1 - 12px;
 $font-size-h4:16px;
@@ -45,7 +54,6 @@ $font-size-title:46px;
 $font-size-subtitle:16px;
 $font-size-text:18px;
 $font-size-blockquote:22px;
-
 
 // Anchos de línea
 $line-height-title:1;
@@ -63,3 +71,6 @@ $padding-default:remCalc(50px);
 // Nav
 $nav-background:rgba(0,0,0,2/10);
 $nav-height:50px;
+
+// Transiciones
+$transition-main:2/10;

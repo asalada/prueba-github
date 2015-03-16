@@ -2,7 +2,11 @@
 h1{
     @include font-sizing($font-size-h1, $line-height-title);
     .post-header &{
-        color:$color-blog-header;
+        color:$color-post-header;
+        @include font-sizing($font-size-title, $line-height-title, 6px);
+    }
+    .blog &{
+        text-align: center;
         @include font-sizing($font-size-title, $line-height-title, 6px);
     }
 }
@@ -12,9 +16,16 @@ h2{
         margin:0;
         padding:0;
     }
+    .post-content &{
+        font-family:$font-title;
+    }
 }
 h3{
     @include font-sizing($font-size-h3, $line-height-title);
+    .post-content &{
+        font-family:$font-subtitle;
+        text-transform: uppercase;
+    }
 }
 h4{
     font-size:$font-size-h4;

@@ -7,11 +7,11 @@ blockquote{
     font-weight: 300;
     margin-left:0;
     margin-right:0;
-    padding:30px 50px;
+    padding:30px 40px;
     @include box-shadow(2px, 2px, 2px, $grey-80);
     @include font-sizing($font-size-blockquote, $line-height-text);
     @media screen and (max-width: $device-tablet) {
-        padding:20px 40px;
+        padding:20px 27px;
     }
     @media screen and (max-width: $device-phone) {
         border-left-width: 4px;

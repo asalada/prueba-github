@@ -1,3 +1,32 @@
+// Header
+.post-header{
+    text-align: center;
+}
+
+
+// Content
+.post-content{
+    color:$color-post-text;
+    font-weight: 300;
+    line-height: 1.6;
+
+    a{
+        border-bottom: 2px solid $grey-85;
+        &:hover{
+            border-color:$color-main;
+            color:$grey-1;
+        }
+    }
+    p,li{
+        
+        @include font-sizing($font-size-text, $line-height-text);
+    }
+    span{
+        color:$color-main-light;
+        font-weight: 700;
+    }
+}
+
 // Footer (buttons)
 %button-post-style{
     $color:$grey-80;

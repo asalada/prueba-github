@@ -27,20 +27,20 @@
         </h1>
         
         <div class="grid blog">
-            <a href="post-1.php">
+            <a href="post-2.php">
                 <div class="grid-item-content">
                     <!--<img src="img/sample-pic-3.jpg">-->
                     <h2>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        In hac habitasse
                     </h2>
                     <p>
                         Fusce congue sagittis nisl non aliquet. Mauris eleifend odio et iaculis viverra. Nullam tortor massa, gravida a imperdiet ac, convallis id lectus. Donec maximus sem ut gravida semper. Praesent tellus massa, ultrices at mauris tincidunt, laoreet interdum est. Etiam eleifend, dui in auctor placerat, risus diam posuere nisl, eget viverra.
                     </p>
                 </div>
-                <span class='date'>15 mar 2015</span>
+                <?php // require('post-meta.php') ?>
             </a>
 
-            <a href="post-3.php">
+            <a href="post-la-incertidumbre.php">
                 <div class="grid-item-content">
                     <!--<img src="img/sample-pic-3.jpg">-->
                     <h2>
@@ -50,7 +50,7 @@
                         Se me hace explicar el porqué. El por qué no me entiendo. El por qué sigo siendo una incógnita después de tantos años. El no ser capaz de adelantarme, el caer en errores que creía superados y en encontrar momentos de lucidez en lugares que creía perdidos. Es incomprensible, porque...
                     </p>
                 </div>
-                <span class='date'>6 mar 2015</span>
+                <?php // require('post-meta.php') ?>
             </a>
 
             <a href="post-2.php">
@@ -63,7 +63,7 @@
                         Donec ultricies fringilla diam nec semper. Curabitur pulvinar diam eget facilisis auctor. Sed tincidunt eros velit, non rhoncus dolor vulputate ac. Aliquam orci purus, vehicula non ultrices eget, placerat ut diam. Nunc nec eros non quam auctor vestibulum vel vitae lorem. Nunc pretium purus eu nunc aliquet, nec feugiat quam.
                     </p>
                 </div>
-                <span class='date'>28 feb 2015</span>
+                <?php // require('post-meta.php') ?>
             </a>
 
             <a href="post-2.php">
@@ -76,7 +76,7 @@
                         Aliquam sed congue purus. Praesent ac sodales augue, quis elementum nibh. Phasellus augue erat, pulvinar ultrices tristique a, vulputate efficitur nunc. Pellentesque laoreet urna quis pulvinar accumsan. Etiam ac vulputate ex, vitae faucibus arcu. Aenean luctus eros id tempor viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
                     </p>
                 </div>
-                <span class='date'>20 feb 2015</span>
+                <?php // require('post-meta.php') ?>
             </a>
 
             <a href="post-2.php">
@@ -89,12 +89,12 @@
                         In hac habitasse platea dictumst. Cras orci odio, sollicitudin et leo quis, viverra sagittis nulla. Sed orci quam, scelerisque eget mi dignissim, dapibus venenatis turpis. In viverra ex varius fermentum venenatis. Pellentesque lorem orci, tristique ut facilisis eget, vestibulum at leo. Vestibulum varius purus ac imperdiet hendrerit. Curabitur facilisis lectus. 
                     </p>
                 </div>
-                <span class='date'>12 feb 2015</span>
-            </a><!--
+                <?php // require('post-meta.php') ?>
+            </a>
 
             <a href="post-2.php">
                 <div class="grid-item-content">
-                    <img src="img/sample-pic-3.jpg">
+                    <!--<img src="img/sample-pic-3.jpg">-->
                     <h2>
                         Quisque in odio ut est elementum aliquet
                     </h2>
@@ -102,8 +102,8 @@
                         Fusce in elementum lectus. Curabitur congue sem nulla, vitae ornare augue dapibus sit amet. Mauris porta faucibus dolor vitae lobortis. Integer consectetur ac ligula in tempor. In nec nulla nisl. Nullam massa odio, consequat et nunc vel, elementum pellentesque eros. Integer rhoncus eros a mauris suscipit volutpat. Donec ante est. 
                     </p>
                 </div>
-                <span class='date'>15 mar 2015</span>
-            </a>-->
+                <?php // require('post-meta.php') ?>
+            </a>
 
         </div>
         
