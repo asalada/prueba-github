@@ -1,13 +1,13 @@
-<article class="main main-container clearfix blog blog-post">
+<article class="clearfix blog blog-post">
+    
+<div class="post-thumbnail-bg" style="background-image: url('img/sample-pic-10.jpg')">
 
-<section class="post-container wrapper">
+</div>
+    
+<section class="post-container">
     
     <header class="post-header">
-        
-        <div class="post-thumbnail">
-            <img src="img/sample-pic-4.jpg" alt="Imagen de la entrada">
-        </div>
-        
+            
         <h1>
             La incertidumbre
         </h1>
@@ -19,7 +19,7 @@
     <article class="post-content">
         
         <p>
-            Se me hace explicar difícil el porqué. El por qué no me entiendo. El por qué sigo siendo una incógnita después de tantos años. El no ser capaz de adelantarme, el caer en errores que creía superados y en encontrar momentos de lucidez en lugares que creía perdidos. Es incomprensible, porque si con alguien he pasado tiempo ha sido conmigo mismo.
+            Se me hace difícil explicar el porqué. El por qué no me entiendo. El por qué sigo siendo una incógnita después de tantos años. El no ser capaz de adelantarme, el caer en errores que creía superados y en encontrar momentos de lucidez en lugares que creía perdidos. Es incomprensible, porque si con alguien he pasado tiempo ha sido conmigo mismo.
         </p>
         
         <p>
@@ -40,6 +40,8 @@
         
     </article>
     
+    
+</section>
     <footer class="post-footer">
         
         <div class="post-tags">
@@ -56,7 +58,5 @@
         <?php require('post-footer.php') ?>
 
     </footer>
-    
-</section>
     
 </article>

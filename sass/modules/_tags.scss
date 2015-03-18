@@ -2,19 +2,25 @@
 .post-tags{
     font-family: $font-nav;
     a{
-        $color:$color-grey-lighter;
+        $color:$color-light;
+        $color-shadow:$color-grey-darkest;
         border:1px solid $color;
         color: $color;
         font-size:12px;
         font-weight:600;
         margin-right:5px;
-        padding:2px 5px;
+        padding:5px 10px;
+        text-shadow: 1px 1px $color-shadow;
         text-transform: uppercase;
         @include border-radius(2px);
+        @include box-shadow(0, 0, 1px, $color-shadow);
         &:hover{
-            $color-hover:$color-grey-dark;
+            $color-hover:$color-main-dark;
+            background-color:$color-hover;
             border-color:$color-hover;
-            color:$color-hover;
+            color:$color-light;
+            text-shadow:none;
+            @include box-shadow(0, 0, 0, white);
         }
     }
 }

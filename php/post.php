@@ -1,12 +1,12 @@
-<article class="main main-container clearfix blog blog-post">
+<article class="clearfix blog blog-post">
+    
+<div class="post-thumbnail-bg" style="background-image: url('img/sample-pic-13.jpg')">
 
-<section class="post-container wrapper">
+</div>
+
+<section class="post-container">
     
     <header class="post-header">
-        
-        <div class="post-thumbnail">
-            <img src="img/sample-pic-5.jpg" alt="Imagen de la entrada">
-        </div>
         
         <h1>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -90,6 +90,9 @@
         
     </article>
     
+    
+</section>
+    
     <footer class="post-footer">
         
         <div class="post-tags">
@@ -106,7 +109,4 @@
         <?php require('post-footer.php') ?>
 
     </footer>
-    
-</section>
-    
 </article>

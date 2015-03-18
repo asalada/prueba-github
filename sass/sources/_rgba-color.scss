@@ -1,0 +1,31 @@
+// The SASS way: http://thesassway.com/intermediate/mixins-for-semi-transparent-colors
+
+// RGBA background
+@mixin rgba-bg($color, $transparency){
+    background-color: $color;
+    background-color: rgba($color, $transparency);
+}
+
+// RGBA color
+@mixin rgba-color($attribute, $color, $transparency){
+    #{$attribute}: $color;
+    #{$attribute}: rgba($color, $transparency);
+}
+
+// The SASS way: Just background
+@mixin alpha-background-color($color, $background) {
+    $percent: alpha($color) * 100%;
+    $opaque: opacify($color, 1);
+    $solid-color: mix($opaque, $background, $percent);
+    background-color: $solid-color;
+    background-color: $color;
+}
+
+// The SASS way: Specific attribute
+@mixin alpha-attribute($attribute, $color, $background) {
+    $percent: alpha($color) * 100%;
+    $opaque: opacify($color, 1);
+    $solid-color: mix($opaque, $background, $percent);
+    #{$attribute}: $solid-color;
+    #{$attribute}: $color;
+}

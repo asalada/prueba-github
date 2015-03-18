@@ -18,7 +18,9 @@
 @import "sources/font-smoothing";
 @import "sources/greyscale";
 @import "sources/opacity";
+@import "sources/rgba-color";
 @import "sources/selection";
+@import "sources/text-shadow";
 @import "sources/transform";
 @import "sources/transition";
 
@@ -38,6 +40,7 @@
 @import "modules/blockquote";
 @import "modules/form";
 @import "modules/grid";
+@import "modules/images";
 @import "modules/meta";
 @import "modules/nav";
 @import "modules/post";

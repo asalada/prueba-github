@@ -1,0 +1,8 @@
+img{
+    .post-content &{
+        background-color:$color-light;
+        padding:20px;
+        @include box-shadow(0,0,10px, $color-grey-lighter);
+        @include box-sizing(border-box);
+    }
+}

@@ -1,6 +1,7 @@
+// Thumbnail img
 .post-thumbnail{
-    background-color:#fff;
     border:1px solid $grey-90;
+    background-color:#fff;
     display:inline-block;
     margin:0 auto 20px;
     max-width: 100%;
@@ -10,4 +11,17 @@
         display:block;
         max-height: 500px;
     }
+}
+
+// Thumbnail background
+.post-thumbnail-bg{
+    background-color:$color-light;
+    background-size:cover;
+    display:block;
+    height:$height-thumbnail;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: -1;
+    @include opacity(.9);
 }

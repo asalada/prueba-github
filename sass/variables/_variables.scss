@@ -33,6 +33,11 @@ $color-spotify:#84BD00;
 $color-twitter:#55ACEE;
 $color-youtube:#CC181E;
 
+// Dispositivos
+$device-desktop:1140px;
+$device-tablet:768px;
+$device-phone:480px;
+
 // Fuentes
 $font-title: 'Playfair Display', serif;
 $font-subtitle: 'Playfair Display SC', sans-serif;
@@ -55,15 +60,13 @@ $font-size-subtitle:16px;
 $font-size-text:18px;
 $font-size-blockquote:22px;
 
+// Alturas
+$height-thumbnail:100%;
+
 // Anchos de línea
 $line-height-title:1;
 $line-height-subtitle:$line-height-title;
 $line-height-text:1.5;
-
-// Dispositivos
-$device-desktop:1140px;
-$device-tablet:768px;
-$device-phone:480px;
 
 // Distancias
 $padding-default:remCalc(50px);

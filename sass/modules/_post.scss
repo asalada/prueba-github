@@ -3,13 +3,12 @@
     text-align: center;
 }
 
-
 // Content
 .post-content{
     color:$color-post-text;
     font-weight: 300;
     line-height: 1.6;
-
+    text-align:justify;
     a{
         border-bottom: 2px solid $grey-85;
         &:hover{
@@ -36,16 +35,26 @@
     @include button-square-curve(50px, 1px);
 }
 
+.post-footer{
+    text-align: center;
+    & > *{
+        $margin:50px;
+        margin-bottom:$margin;
+        margin-top:$margin;
+    }
+    @include box-sizing(border-box);
+}
+
 .post-share,
 .post-nav{
-    float:right;
+    /*float:right;*/
     a{
         /*@extend %button-post;*/
         @extend %button-post-style;
     }
 }
 .post-share{
-    margin-right:20px;
+    /*margin-right:20px;*/
     a{
         &.facebook:hover{
             $color-hover:$color-facebook;
@@ -66,4 +75,14 @@
     background-color:$color-main;
     border-color:$color-main-dark;
     color:$color-light;
+}
+
+
+
+// Nueva disposición
+.post-content,.post-footer{
+    @extend .wrapper;
+}
+.post-container{
+    margin-top:20%;
 }
